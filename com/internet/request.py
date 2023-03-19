@@ -24,6 +24,8 @@ for sdata in json_load:
     print(f" setup : {sdata['setup']}")
     print(f" punchline : {sdata['punchline']} \n")
     pyttsx3.speak(sdata['setup'])
+    pyttsx3.speak(sdata['punchline'])
+
 
 
 
